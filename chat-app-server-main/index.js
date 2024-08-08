@@ -10,10 +10,7 @@ const app = express()
 require('dotenv').config()
 
 const corsOptions = {
-  origin: {
-    production: 'https://chat-app-client-main.vercel.app',
-    development: 'http://localhost:3000'
-  },
+  origin: process.env.CLIENT_URL,
   credentials: true
 };
 

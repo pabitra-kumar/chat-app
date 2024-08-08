@@ -1,8 +1,7 @@
 # Realtime Chat App with MERN stack (Backend)
 
 ### Introduction
-This repo consists of the **Backend** part of a Realtime Chat Application built with the MERN stack. I built it when I was trying to learn React and the stack for the first time.
-You can find the frontend repo [here](https://github.com/tsengm6h6/chat-app-client-v2).
+This repo consists of the **Backend** part of a Realtime Chat Application built with the MERN stack. I built it when I was doing my Assignment.
 
 ### Feature
 - JWT Authentication
@@ -20,10 +19,10 @@ You can find the frontend repo [here](https://github.com/tsengm6h6/chat-app-clie
 ### Deploy
 - database: MongoDB Atlas
 - backend: Render
-- frontend: Netlify
+- frontend: Vercel
 
 ### Live Demo
-https://sweet-bombolone-176d6a.netlify.app
+https://chat-app-frontend-mocha-three.vercel.app/
 
 ### Testing Account
 username: Lenny Connolly  
@@ -38,21 +37,24 @@ password: 12345678
     git clone https://github.com/tsengm6h6/chat-app-server.git
     ```
 2. Enter the directory
+   ```
+   cd chat-app
+   ```
     ```
     cd chat-app-server
     ```
-3. Install dependencies
+4. Install dependencies
     ```
     yarn install
     ```
-4. Change .env.example file
+5. Change .env.example file
    - change file name to .env
    - go to [MongoDB Atlas](https://www.mongodb.com/atlas/database) to create a cluster and change the MONGO_URI  
      (Follow [this video](https://www.youtube.com/watch?v=K8YELRmUb5o&t=920s) if you need help on this step)
    - change the CLIENT_URL to your local client port (ex. http://localhost:3000 for client running on port 3000)
    - generate random token for ACCESS/REFRESH_TOKEN_SECRET and also COOKIE_SIGNATURE
 
-5. Run the app   
+6. Run the app   
     ```
     yarn dev
     ```

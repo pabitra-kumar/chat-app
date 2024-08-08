@@ -1,8 +1,8 @@
 # Realtime Chat App with MERN stack (Frontend)
 
 ### Introduction
-This repo consists of the **Frontend** part of a Realtime Chat Application built with the MERN stack. I built it when I was trying to learn React and the stack for the first time.
-You can find the backend repo [here](https://github.com/tsengm6h6/chat-app-server).
+This repo consists of the **Frontend** part of a Realtime Chat Application built with the MERN stack. I built it when I was submitting a Assignment.
+Before running going to client side, [check here](https://github.com/pabitra-kumar/chat-app/tree/main/chat-app-server-main) to setup for the server
 
 ### Feature
 - JWT Authentication
@@ -20,17 +20,17 @@ You can find the backend repo [here](https://github.com/tsengm6h6/chat-app-serve
 ### Deploy
 - database: MongoDB Atlas
 - backend: Render
-- frontend: Netlify
+- frontend: Vercel
 
 ### Live Demo
-https://sweet-bombolone-176d6a.netlify.app
+
 
 ### Testing Account
-username: Lenny Connolly  
-password: 12345678  
+username: user_demo 
+password: test@5678  
 
-username: Rachael Holloway  
-password: 12345678  
+username: pabitra_kumar  
+password: Pabitra@123 
 
 ### Screenshots
 **Chat (Light mode)**
@@ -51,11 +51,11 @@ password: 12345678
 **Create Room (Mobile)**
 ![Imgur](https://i.imgur.com/gK4azXw.png)
 
-### How to use
-1. Clone the repo
-    ```
-    git clone https://github.com/tsengm6h6/chat-app-client-v2.git
-    ```
+### How to use (Before Running the command, Set-up the server first)
+1. Go to Repository Directory
+   ```
+   cd ..
+   ```
 2. Enter the directory
     ```
     cd chat-app-client-v2
@@ -70,7 +70,7 @@ password: 12345678
    - change the VITE_SERVER_URL to your local server port (ex. http://localhost:5000 for server listening to port 5000)
 
 5. Run the app   
-    -> Please make sure the server for this app is running before running the client, [check here](https://github.com/tsengm6h6/chat-app-server) to setup for the server.
+    -> Please make sure the server for this app is running before running the client, [check here](https://github.com/pabitra-kumar/chat-app/tree/main/chat-app-server-main) to setup for the server.
     ```
     yarn dev
     ```
